@@ -1,10 +1,10 @@
 const Footer = () => (
-  <div class="attribution">
+  <div className="hidden attribution">
     Challenge by{" "}
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">
       Frontend Mentor
     </a>
-    . Coded by <a href="#">Your Name Here</a>.
+    . Coded by <a href="/">Your Name Here</a>.
   </div>
 );
 export default Footer;
